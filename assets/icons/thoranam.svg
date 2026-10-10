@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#AA771C"/>
+      <stop offset="100%" stop-color="#FDF8F0"/>
+    </linearGradient>
+    <linearGradient id="marigoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300"/>
+      <stop offset="50%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#D84315"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Hanging Rope / Floral String -->
+  <path d="M0 20 Q 150 45, 300 20 Q 450 45, 600 20 Q 750 45, 900 20 Q 1050 45, 1200 20" stroke="url(#goldGrad)" stroke-width="4" fill="none" opacity="0.9"/>
+  <path d="M0 25 Q 150 50, 300 25 Q 450 50, 600 25 Q 750 50, 900 25 Q 1050 50, 1200 25" stroke="url(#marigoldGrad)" stroke-width="3" stroke-dasharray="6 4" fill="none"/>
+
+  <!-- Mango Leaves Thoranam Units -->
+  <g transform="translate(75, 28)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(225, 32)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(375, 28)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(525, 32)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(675, 32)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(825, 28)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(975, 32)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(1125, 28)">
+    <path d="M0 0 C -15 35, -20 80, 0 110 C 20 80, 15 35, 0 0 Z" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="1"/>
+    <path d="M0 5 L0 100" stroke="#81C784" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- Marigold Flower Bundles & Hanging Tassels -->
+  <g transform="translate(150, 42)">
+    <circle cx="0" cy="0" r="14" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="9" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="4" fill="#E65100"/>
+    <line x1="0" y1="14" x2="0" y2="70" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="74" r="7" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="90" r="5" fill="#FFF"/>
+  </g>
+  <g transform="translate(300, 20)">
+    <circle cx="0" cy="0" r="18" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="12" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="6" fill="#E65100"/>
+    <line x1="0" y1="18" x2="0" y2="90" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="98" r="9" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="115" r="7" fill="#FDF8F0"/>
+    <circle cx="0" cy="130" r="5" fill="url(#marigoldGrad)"/>
+  </g>
+  <g transform="translate(450, 42)">
+    <circle cx="0" cy="0" r="14" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="9" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="4" fill="#E65100"/>
+    <line x1="0" y1="14" x2="0" y2="70" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="74" r="7" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="90" r="5" fill="#FFF"/>
+  </g>
+  <g transform="translate(600, 20)">
+    <circle cx="0" cy="0" r="20" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="14" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="7" fill="#E65100"/>
+    <line x1="0" y1="20" x2="0" y2="105" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="115" r="11" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="132" r="8" fill="#FDF8F0"/>
+    <circle cx="0" cy="148" r="6" fill="url(#marigoldGrad)"/>
+  </g>
+  <g transform="translate(750, 42)">
+    <circle cx="0" cy="0" r="14" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="9" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="4" fill="#E65100"/>
+    <line x1="0" y1="14" x2="0" y2="70" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="74" r="7" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="90" r="5" fill="#FFF"/>
+  </g>
+  <g transform="translate(900, 20)">
+    <circle cx="0" cy="0" r="18" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="12" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="6" fill="#E65100"/>
+    <line x1="0" y1="18" x2="0" y2="90" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="98" r="9" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="115" r="7" fill="#FDF8F0"/>
+    <circle cx="0" cy="130" r="5" fill="url(#marigoldGrad)"/>
+  </g>
+  <g transform="translate(1050, 42)">
+    <circle cx="0" cy="0" r="14" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="0" r="9" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="4" fill="#E65100"/>
+    <line x1="0" y1="14" x2="0" y2="70" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="0" cy="74" r="7" fill="url(#marigoldGrad)"/>
+    <circle cx="0" cy="90" r="5" fill="#FFF"/>
+  </g>
+</svg>

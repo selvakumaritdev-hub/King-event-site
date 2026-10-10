@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 450" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="30%" stop-color="#FFB300"/>
+      <stop offset="60%" stop-color="#D4AF37"/>
+      <stop offset="90%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#FFE082"/>
+    </linearGradient>
+    <radialGradient id="flameGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF59D" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#FFB300" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#FF5722" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flameCore" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="50%" stop-color="#FFC107"/>
+      <stop offset="90%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="glowFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Golden Aura Glow behind Flame -->
+  <circle cx="100" cy="55" r="45" fill="url(#flameGlow)" filter="url(#glowFilter)"/>
+
+  <!-- Top Flame -->
+  <path d="M100 20 C88 45, 92 65, 100 70 C108 65, 112 45, 100 20 Z" fill="url(#flameCore)"/>
+  
+  <!-- Crown / Annapakshi finial -->
+  <path d="M100 68 C85 68, 88 78, 100 82 C112 78, 115 68, 100 68 Z" fill="url(#brassGrad)"/>
+
+  <!-- Top Oil Bowl (Prabhai / Thattu) -->
+  <ellipse cx="100" cy="85" rx="45" ry="12" fill="url(#brassGrad)"/>
+  <path d="M55 85 Q 100 105, 145 85 Z" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="83" rx="40" ry="8" fill="#B26A00" opacity="0.6"/>
+
+  <!-- Small side flame wicks -->
+  <path d="M58 78 C54 82, 58 86, 62 84 Z" fill="url(#flameCore)"/>
+  <path d="M142 78 C146 82, 142 86, 138 84 Z" fill="url(#flameCore)"/>
+
+  <!-- Lamp Neck & Decorative Rings -->
+  <path d="M92 95 L90 140 L110 140 L108 95 Z" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="115" rx="16" ry="6" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="140" rx="22" ry="7" fill="url(#brassGrad)"/>
+
+  <!-- Central Pot / Kumbham section -->
+  <ellipse cx="100" cy="190" rx="32" ry="25" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="170" rx="24" ry="7" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="210" rx="24" ry="7" fill="url(#brassGrad)"/>
+
+  <!-- Lower Column & Fluting -->
+  <path d="M88 215 L82 320 L118 320 L112 215 Z" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="265" rx="20" ry="6" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="320" rx="30" ry="8" fill="url(#brassGrad)"/>
+
+  <!-- Lower Base Plate (Peedam) -->
+  <path d="M70 325 L40 400 L160 400 L130 325 Z" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="400" rx="65" ry="16" fill="url(#brassGrad)"/>
+  <ellipse cx="100" cy="415" rx="75" ry="18" fill="url(#brassGrad)"/>
+  
+  <!-- Base Floral Decoration (Marigold Petals around base) -->
+  <g opacity="0.85">
+    <ellipse cx="40" cy="415" rx="12" ry="6" fill="#FF9800"/>
+    <ellipse cx="65" cy="425" rx="12" ry="6" fill="#FFC107"/>
+    <ellipse cx="100" cy="430" rx="14" ry="7" fill="#FF5722"/>
+    <ellipse cx="135" cy="425" rx="12" ry="6" fill="#FFC107"/>
+    <ellipse cx="160" cy="415" rx="12" ry="6" fill="#FF9800"/>
+  </g>
+</svg>

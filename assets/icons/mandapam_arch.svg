@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="archGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE57F"/>
+      <stop offset="40%" stop-color="#D4AF37"/>
+      <stop offset="80%" stop-color="#B28704"/>
+      <stop offset="100%" stop-color="#FFF8E1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grand Indian Temple / Palace Arch Silhouette -->
+  <path d="M100 600 L100 280 Q 100 180, 200 120 Q 350 40, 500 10 Q 650 40, 800 120 Q 900 180, 900 280 L900 600" stroke="url(#archGold)" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M140 600 L140 300 Q 140 220, 240 160 Q 370 80, 500 50 Q 630 80, 760 160 Q 860 220, 860 300 L860 600" stroke="url(#archGold)" stroke-width="2" stroke-dasharray="8 6" fill="none" opacity="0.4"/>
+  
+  <!-- Crest Finial Kalasam -->
+  <g transform="translate(500, 10)">
+    <circle cx="0" cy="0" r="12" fill="url(#archGold)"/>
+    <path d="M0 -25 L-6 0 L6 0 Z" fill="url(#archGold)"/>
+  </g>
+
+  <!-- Left & Right Floral Pillars Motif -->
+  <g transform="translate(100, 280)">
+    <circle cx="0" cy="0" r="20" fill="url(#archGold)" opacity="0.8"/>
+  </g>
+  <g transform="translate(900, 280)">
+    <circle cx="0" cy="0" r="20" fill="url(#archGold)" opacity="0.8"/>
+  </g>
+</svg>

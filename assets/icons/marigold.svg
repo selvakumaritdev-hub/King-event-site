@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <radialGradient id="mgGrad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF59D"/>
+      <stop offset="35%" stop-color="#FFB300"/>
+      <stop offset="70%" stop-color="#FF6F00"/>
+      <stop offset="100%" stop-color="#D84315"/>
+    </radialGradient>
+    <radialGradient id="mgCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="80%" stop-color="#BF360C"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Layer Petals -->
+  <g fill="url(#mgGrad1)" stroke="#BF360C" stroke-width="0.5">
+    <ellipse cx="50" cy="18" rx="8" ry="16"/>
+    <ellipse cx="50" cy="82" rx="8" ry="16"/>
+    <ellipse cx="18" cy="50" rx="16" ry="8"/>
+    <ellipse cx="82" cy="50" rx="16" ry="8"/>
+    
+    <ellipse cx="27" cy="27" rx="15" ry="8" transform="rotate(45 27 27)"/>
+    <ellipse cx="73" cy="27" rx="15" ry="8" transform="rotate(-45 73 27)"/>
+    <ellipse cx="27" cy="73" rx="15" ry="8" transform="rotate(-45 27 73)"/>
+    <ellipse cx="73" cy="73" rx="15" ry="8" transform="rotate(45 73 73)"/>
+
+    <!-- Intermediate Layer -->
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(22.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(67.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(112.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(157.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(202.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(247.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(292.5 50 50)"/>
+    <ellipse cx="50" cy="26" rx="6" ry="12" transform="rotate(337.5 50 50)"/>
+  </g>
+
+  <!-- Inner Cluster -->
+  <circle cx="50" cy="50" r="16" fill="url(#mgCenter)"/>
+  <circle cx="50" cy="50" r="8" fill="#E65100"/>
+  <circle cx="50" cy="50" r="3" fill="#FFF9C4"/>
+</svg>
